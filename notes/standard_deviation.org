@@ -1,0 +1,11 @@
+* Standard Deviation
+** It measures variance.
+** x^ (with no parameter) is x bar or mean of the dataset.
+*** Population Version
+**** o^2 = sqrt(1/N)*sigma_(i=1)^(N)[sqrt((x_i - x^)^2)]
+*** Sample Version
+**** First Formula
+***** s^2 = sqrt(1/(n-1))*sigma_(i=1)^(n)[sqrt((x_i - x^)^2)]
+**** Second formula
+***** s^2 = (1/(n-1))*[sigma_(i=1)^(n)[x^2_i - ((sigma_(i=1)^(n)[x_i])^2)/n]]
+*** To check if calculations are correct: sigma_(i=1)^(n)[x_i - x^] = 0 should be true.
