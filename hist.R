@@ -1,4 +1,4 @@
-viewhist <- function(data,brks,bg,col,title,xlab,ylab){
+viewhist <- function(data,brks,bg,col,title,xlab,ylab){ 
 	opar=par()
 	par(bg=bg)
 	hist(data, breaks=brks, xaxt='n',main=title,xlab=xlab,ylab=ylab,col=col,add=FALSE)
